@@ -1,4 +1,7 @@
-all: test build deploy
+all: setup test build deploy
+
+setup:
+	echo setting up
 
 test:
 	echo testing
